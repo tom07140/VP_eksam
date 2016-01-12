@@ -55,6 +55,7 @@ if(isset($_GET["logout"])){
       <ul class="nav navbar-nav">
         <li><a href="main.php">Avaleht <span class="sr-only"></span></a></li>
 		<li><a href="stats.php">Statistika <span class="sr-only"></span></a></li>
+		<li><a href="stats2.php">Veel statistikat <span class="sr-only"></span></a></li>
 		<li><a href="?logout=1">Logi välja <span class="sr-only"></span></a></li>
         
       </ul>

@@ -1,6 +1,10 @@
 <?php require_once("header.php"); ?>
 <?php require_once("functions.php"); ?>
 <?php
+	if(isset($_SESSION["logged_in_user_id"])){
+		header("Location: main.php");
+		
+	}
 	$email = "";
 	$email_error = "";
 	$password = "";
